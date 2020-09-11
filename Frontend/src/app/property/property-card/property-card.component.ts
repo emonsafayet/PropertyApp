@@ -9,10 +9,6 @@
 )
 
 export class PropertyCardComponent {
-    Property: any={
-        "Id" :1,
-        "Name" :"Biral House",
-        "Type":"House",
-        "Price": 12000
-    }
+ @Input() property:any
+
 }
